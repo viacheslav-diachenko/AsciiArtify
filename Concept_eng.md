@@ -1,18 +1,18 @@
 
-# Comparative Analysis of Kubernetes Deployment Tools: Minikube, Kind, and K3d
+# Порівняльний аналіз інструментів розгортання Kubernetes: Minikube, Kind і K3d
 
-## Introduction
+## Вступ
 
-This document provides a comparative analysis of three popular Kubernetes deployment tools: Minikube, Kind, and K3d. It aims to assist the AsciiArtify startup in selecting the most suitable tool for their local development needs.
+У цьому документі представлено порівняльний аналіз трьох популярних інструментів розгортання Kubernetes: Minikube, Kind і K3d. Він спрямований на те, щоб допомогти стартапу AsciiArtify вибрати найбільш підходящий інструмент для потреб місцевого розвитку.
 
-## Tool Comparison
+## Порівняння інструментів
 
-| Feature                | Minikube        | Kind            | K3d             |
+| Особливість                | Minikube        | Kind            | K3d             |
 |------------------------|-----------------|-----------------|-----------------|
-| **Supported OS**       | Windows, macOS, Linux | Windows, macOS, Linux | Windows, macOS, Linux |
-| **Architectures**      | AMD64           | AMD64, partial ARM64 | AMD64, ARM64   |
-| **Automation**         | Limited         | High            | High            |
-| **Additional Features**| Built-in monitoring, app support | Multiple clusters, YAML config | Fast deployment, easy management, small footprint |
+| **Підтримувана ОС**       | Windows, macOS, Linux | Windows, macOS, Linux | Windows, macOS, Linux |
+| **Архітектури**      | AMD64           | AMD64, partial ARM64 | AMD64, ARM64   |
+| **Рівень автоматизації**         | Обмежений         | Високий            | Високий            |
+| **Додаткові можливості**| Built-in monitoring, app support | Multiple clusters, YAML config | Fast deployment, easy management, small footprint |
 
 ## Advantages and Disadvantages
 
