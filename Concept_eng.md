@@ -12,27 +12,27 @@
 | **Підтримувана ОС**       | Windows, macOS, Linux | Windows, macOS, Linux | Windows, macOS, Linux |
 | **Архітектури**      | AMD64           | AMD64, partial ARM64 | AMD64, ARM64   |
 | **Рівень автоматизації**         | Обмежений         | Високий            | Високий            |
-| **Додаткові можливості**| Built-in monitoring, app support | Multiple clusters, YAML config | Fast deployment, easy management, small footprint |
+| **Додаткові можливості**| Вбудований моніторинг, підтримка додатків | Кілька кластерів, конфігурація YAML | Швидке розгортання, легке керування, невелика площа |
 
-## Advantages and Disadvantages
+## Переваги та недоліки
 
-### Minikube
-- **Advantages:** Easy to use, ideal for learning and simple tests.
-- **Disadvantages:** Limited scalability, resource demands.
+### Мінікубе
+- **Переваги:** Простий у використанні, ідеальний для навчання та простих тестів.
+- **Недоліки:** обмежена масштабованість, вимогливість до ресурсів.
 
-### Kind
-- **Advantages:** Flexible configuration, CI/CD integration, multiple cluster support.
-- **Disadvantages:** Resource demands for multiple clusters.
+### Добрий
+- **Переваги:** Гнучка конфігурація, інтеграція CI/CD, підтримка кількох кластерів.
+- **Недоліки:** вимоги до ресурсів для кількох кластерів.
 
 ### K3d
-- **Advantages:** Rapid deployment, minimal resource requirements, suitable for development and testing.
-- **Disadvantages:** Less popular, potential limitations in advanced features.
+- **Переваги:** Швидке розгортання, мінімальні вимоги до ресурсів, підходить для розробки та тестування.
+- **Недоліки:** Менш популярні, потенційні обмеження в розширених функціях.
 
-## Conclusion and Recommendations
+## Висновки та рекомендації
 
-For the AsciiArtify startup:
-- **Minikube** is an excellent choice for learning and basic testing but may not be suitable for complex deployments due to scalability limits.
-- **Kind** is well-suited for scenarios requiring flexible configurations and CI/CD integration.
-- **K3d** is recommended for rapid development and testing, given its efficiency and minimal resource demands.
+Для запуску AsciiArtify:
+- **Minikube** є чудовим вибором для навчання та базового тестування, але може не підходити для складних розгортань через обмеження масштабованості.
+- **Kind** добре підходить для сценаріїв, що вимагають гнучкої конфігурації та інтеграції CI/CD.
+- **K3d** рекомендується для швидкої розробки та тестування, враховуючи його ефективність і мінімальні вимоги до ресурсів.
 
-Given the licensing issues with Docker, Podman is suggested as a potential alternative, especially for commercial use. Podman provides similar functionality without the legal constraints associated with Docker.
+Враховуючи проблеми з ліцензуванням Docker, Podman пропонується як потенційна альтернатива, особливо для комерційного використання. Podman надає аналогічні функції без юридичних обмежень, пов’язаних з Docker.
