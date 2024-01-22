@@ -66,5 +66,5 @@
 
 Нижче приведено демо встановлення Minikube з використанням Podman.
 
-![My Demo](screen_capture_installing_minikube.gif)
+![My Demo](../screen_capture_installing_minikube.gif)
 
