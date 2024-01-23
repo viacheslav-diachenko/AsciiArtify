@@ -1,2 +1,2 @@
 ## Демо-інструкція на встановлення та отримання доступу до інтерфейсу ArgoCD
-![Встановлення ArgoCD](../screen_capture_installing_argocd.gif)пше
+![Встановлення ArgoCD](../screen_capture_installing_argocd.gif)
